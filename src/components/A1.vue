@@ -1,7 +1,7 @@
 <template>
-    <div class="H1">
+    <div class="A1">
         <b-card>
-            Contact
+            About
         </b-card>
     </div>
 </template>
