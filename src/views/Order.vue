@@ -1,16 +1,17 @@
 <template>
-  <div class="Home">
-    <H1 />
+  <div class="Order">
+    <h1>This is order</h1>
+    <Order />
   </div>
 </template>
 
 <script lang="ts">
 import { Component, Vue } from 'vue-property-decorator';
-import H1 from '@/components/H1.vue'; // @ is an alias to /src
+import Order from '@/components/O1.vue'; // @ is an alias to /src
 
 @Component({
   components: {
-    H1,
+    Order,
   },
 })
 export default class Home extends Vue {}
