@@ -33,6 +33,10 @@
                   <router-link to="/contact"><h3>Contact</h3></router-link>
                 </b-col></b-nav-item
               >
+               <b-nav-item href="#">
+                  <router-link to="/login"><h3>Login</h3></router-link>
+                </b-nav-item
+              >
             </b-navbar-nav>
 
             <!-- Right aligned nav items -->
